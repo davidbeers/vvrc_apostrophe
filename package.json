@@ -8,14 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punkave/apostrophe-sandbox"
+    "url": "https://github.com/davidbeers/vvrc_apostrophe.git"
   },
   "author": "David Beers",
   "license": "BSD",
   "dependencies": {
     "apostrophe-blog-2": "0.5.x",
     "apostrophe-browserify": "0.5.x",
-//    "apostrophe-demo-login": "0.5.x",
     "apostrophe-editor-2": "0.5.x",
     "apostrophe-events": "^0.5.18",
     "apostrophe-groups": "0.5.x",
