@@ -10,8 +10,8 @@ site.init({
   shortName: 'vvrc_cms',
   hostName: 'vajravidya.com',
   title: 'Vajra Vidya Retreat Center',
-  sessionSecret: process.env('SESSION_SECRET'),
-  adminPassword: process.env('ADMIN_PASSWORD'),
+  sessionSecret: process.env.SESSION_SECRET,
+  adminPassword: process.env.ADMIN_PASSWORD,
 
   // Force a2 to prefix all of its URLs. It still
   // listens on its own port, but you can configure

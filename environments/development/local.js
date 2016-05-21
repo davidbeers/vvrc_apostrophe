@@ -49,7 +49,7 @@ module.exports = {
   // If these are your db settings then you don't need to be explicit. If not
   // you can uncomment this and get more specific.
   db: {
-    uri: process.env('MONGO_URI')
+    uri: process.env.MONGO_URI
   }
 };
 
