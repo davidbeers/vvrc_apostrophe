@@ -8,10 +8,10 @@ site.init({
   // This line is required and allows apostrophe-site to use require() and manage our NPM modules for us.
   root: module,
   shortName: 'vvrc_cms',
-  hostName: 'apostrophe-sandbox',
+  hostName: 'vajravidya.com',
   title: 'Vajra Vidya Retreat Center',
-  sessionSecret: 'namo ratna trayaya',
-  adminPassword: 'demo',
+  sessionSecret: process.env('SESSION_SECRET'),
+  adminPassword: process.env('ADMIN_PASSWORD'),
 
   // Force a2 to prefix all of its URLs. It still
   // listens on its own port, but you can configure
