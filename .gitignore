@@ -17,3 +17,5 @@ public/css/master-*.less
 *.DS_Store
 # ide artifacts
 .idea
+# local dev enviro env vars
+.env

@@ -1,4 +1,5 @@
 /* jshint node:true */
+require('dotenv').config({silent: true});
 var fs = require('fs');
 
 var site = require('apostrophe-site')();
